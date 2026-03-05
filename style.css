@@ -55,6 +55,19 @@ article {
   article .actions li button {
     width: 100%;
   }
+  .content {
+    margin-top: -50px;
+  }
+  .album-details {
+    display: flex;
+    justify-content: center;
+    & h1 {
+      text-align: center;
+    }
+  }
+  img {
+    mask: linear-gradient(to bottom, red 60%, #0000);
+  }
 }
 
 header {
